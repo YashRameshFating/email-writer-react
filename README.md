@@ -1,16 +1,138 @@
-# React + Vite
+# Email Writer React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Live Demo:** https://email-writer-react-tbul.onrender.com
 
-Currently, two official plugins are available:
+AI-powered Gmail extension that helps users generate professional email replies directly inside Gmail. With a single click, users can create responses in **Formal**, **Informal**, or **Friendly** tones, saving time and improving communication.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* ✨ Generate AI-powered email replies instantly
+* 📧 Works directly inside Gmail's reply window
+* 🎯 Multiple reply tones:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * Formal
+  * Informal
+  * Friendly
+* ⚡ One-click reply generation
+* 🤖 Powered by Gemini AI
+* 🎨 Clean and user-friendly interface
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Try the application here:
+
+https://email-writer-react-tbul.onrender.com
+
+## Screenshots
+
+Add screenshots or GIFs here to showcase the extension in action.
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/YashRameshFating/my-chrome-extension.git
+cd my-chrome-extension
+```
+
+### Install the Chrome Extension
+
+1. Open Google Chrome.
+
+2. Navigate to:
+
+   ```
+   chrome://extensions/
+   ```
+
+3. Enable **Developer Mode**.
+
+4. Click **Load unpacked**.
+
+5. Select the extension folder.
+
+The extension is now installed.
+
+## How to Use
+
+### Step 1: Open Gmail
+
+Visit:
+
+https://mail.google.com
+
+### Step 2: Open an Email
+
+Open any email and click the **Reply** button.
+
+### Step 3: Generate an AI Reply
+
+1. Click the **AI Reply** button.
+2. Choose your preferred tone:
+
+   * Formal
+   * Informal
+   * Friendly
+3. Wait for the AI to generate a response.
+4. Review and edit the generated text if needed.
+5. Send the email.
+
+## Tech Stack
+
+### Frontend
+
+* React
+* JavaScript
+* Chrome Extension APIs
+
+### Backend
+
+* Spring Boot
+* Java
+* REST APIs
+
+### AI
+
+* Google Gemini API
+
+## Project Structure
+
+```text
+email-writer-react/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .dockerignore
+├── .gitattributes
+├── .gitignore
+├── Dockerfile
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+```
+
+
+## Future Enhancements
+
+* Multiple language support
+* Custom tone creation
+* Email summarization
+* Smart follow-up suggestions
+* Dark mode support
+
+## Author
+
+**Yash Fating**
+
+Feel free to contribute, raise issues, or suggest improvements.
